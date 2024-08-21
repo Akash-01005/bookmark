@@ -1,0 +1,46 @@
+body{
+    background-color: #F8DB89;
+}
+
+#bookmarkBtn{
+    background-color: #f48982;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: background-color 0.5s ease;   
+}
+
+#bookmarkBtn:hover{
+    background-color: #fe5b4f;
+}
+
+form{
+    background-color: #ffffff;
+    padding: 2.2rem 2rem;
+    border-radius: 1.1rem;
+}
+
+.bookmark-card{
+    font-size: 1.4rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#bookmarkId{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+#date{
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 0.5rem;
+}
+
+.view-btn{
+    text-decoration: none !important;
+    background-color: rgb(58, 58, 255);
+}
